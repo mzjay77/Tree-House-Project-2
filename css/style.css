@@ -7,13 +7,11 @@
 
 .top,
 .bottom {
-    background: linear-gradient(pink, white, gold);
-    
+    background: linear-gradient(lightblue, white, lightgray);  
 }
-
 .name {
-    margin-top: 0;
-
+	margin-top: 0;
+	
 }
 
 .wrapper, .gallery, .bottom {
@@ -36,8 +34,8 @@ img {
 .intro {
 	padding-bottom:50px;
     margin: 2em;
-    font-size: 24px;
-    color: #fff;
+    font-size: 30px;
+	color: #fff;
 }
 
 #port {
@@ -89,7 +87,13 @@ img {
 }
 
  h4 {
-    font-size: 18px;
+	font-size: 24px;
+	font-family: 'Playfair Display', serif;	
+ }
+
+ p {
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
  }
 
 /* bottom styling */
@@ -114,16 +118,12 @@ footer li, footer a {
 
 /* media queries */
 
-@media (max-width: 767px) {
+
+@media (min-width: 768px) {
 	
 	.desktop {
 		display: none;
 	}
-	
-}
-
-@media (min-width: 768px) {
-	
 	.profile-img {
 		padding-right: 2%
 	}
