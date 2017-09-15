@@ -7,8 +7,12 @@
 
 .top,
 .bottom {
-  background: linear-gradient(blue, white, grey);
-  
+  background: linear-gradient(blue, white, grey); 
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
 }
 
 .name {
@@ -37,7 +41,7 @@ width: 60%;
 padding-bottom:50px;
   margin: 2em;
   font-size: 24px;
-  color: #fff;
+  color: black;
 }
 
 #port {
