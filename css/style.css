@@ -2,7 +2,6 @@
 
 *{
   box-sizing: border-box;
-
 }
 
 .top,
@@ -17,7 +16,6 @@ p {
 
 .name {
   margin-top: 0;
-
 }
 
 .wrapper, .gallery, .bottom {
@@ -26,6 +24,7 @@ text-align: center;
 
 ul {
 list-style-type: none;
+padding-left: 0;
 }
 
 img {
@@ -34,11 +33,10 @@ max-width:100%;
 
 .profile-img {
 width: 60%;
-
 }
 
 .intro {
-padding-bottom:50px;
+  padding-bottom:50px;
   margin: 2em;
   font-size: 24px;
   color: black;
@@ -58,14 +56,13 @@ padding: 2%;
 background-color: #fff;
 margin: 4% 2%;
 padding: 2.5%;
+padding-left: 0;
+margin-top: -15px;
 }
-
-.gallery li {
-padding-right: 5%;
-margin-right: 3%;
-padding-top: 2%
+.gallery {
+  margin-right: 20px;
+  margin-left: 20px;
 }
-
 /*Nav Styling */
 
 .main-nav, .main-nav a, footer li {
@@ -96,9 +93,13 @@ h4 {
   font-size: 18px;
 }
 
+.back-to-top {
+  float: right;
+}
+
 /* bottom styling */
 
-footer h3 {
+footer h4 {
 float: left;
 margin-left:  1em;
 }
@@ -155,7 +156,7 @@ float: right;
 
 .intro {
   float: left;
-  width: 60%;
+  width: 50%;
   margin-left: 2em;
 }
 
